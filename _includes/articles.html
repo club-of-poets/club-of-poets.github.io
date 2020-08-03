@@ -1,12 +1,12 @@
 <div class="articles">
 
   {% for post in site.posts %}
-      {% capture thecycle %}{% cycle 0, 1, 2 %}{% endcapture %}
-  
-      <div>{{thecycle}}</div>
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  {% if thecycle == 'odd' %}
+    <div>echo something</div>
+  {% endif %}
 
-
-      {% cycle "add row" : '<div class="row">', nil, nil%}
+      {% cycle '<div class="row">', nil, nil%}
       <div class="four columns">
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
@@ -19,7 +19,7 @@
         </div>
         </a>
       </div>
-      {% cycle "end row" : nil, nil, "</div>" %}
+      {% cycle nil, nil, "</div>" %}
 
   {% endfor %}
   {% cycle "end row" : nil, "</div>", "</div>", "</div>" %}
