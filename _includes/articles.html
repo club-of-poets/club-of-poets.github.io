@@ -3,9 +3,9 @@
   {% for post in site.posts %}
       {% capture index %}{% cycle 0, 1, 2 %}{% endcapture %}
 
-      {% cycle '<i>iiii</i>', nil, nil%}
+      {% cycle :'<i>iiii</i>', nil, nil%}
   
-      {% cycle '<div class="row">', nil, nil%}
+      {% cycle :'<div class="row">', nil, nil%}
       <div class="four columns">
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
@@ -18,7 +18,7 @@
         </div>
         </a>
       </div>
-      {% cycle nil, nil, '</div>' %}
+      {% cycle :nil, nil, '</div>' %}
 
   {% endfor %}
 </div>
