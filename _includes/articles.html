@@ -1,20 +1,30 @@
 <div class="articles">
 
+  {% assign colIndex = 0 %}
+
   {% for post in site.posts %}
 
-      {% cycle 'add row' : '<div class="row">', nil, nil%}
+      {% if {{colIndex | divided_by: 3}} == 0 %}
+        <div class="row">
+      {% endif %}
+
       <div class="four columns">
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
-        <h3>{{ post.title }}</h3>
-        <div class="justify">
-          {% if post.abstract %}
-            {{ post.abstract }}
-          {% else %}
-            {{ post.content | truncatewords:50 | strip_newlines }}
-          {% endif %}
-        </div>
+          <h3>{{ post.title }}</h3>
+          <div class="justify">
+            {% if post.abstract %}
+              {{ post.abstract }}
+            {% else %}
+              {{ post.content | truncatewords:50 | strip_newlines }}
+            {% endif %}
+          </div>
         </a>
       </div>
+      {% if {{colIndex | divided_by: 3}} == 2 %}
+        </div>
+      {% endif %}
+
+      {% assign colIndex = colIndex + 1 %}
       {% cycle 'end row' : nil, nil, '</div>' %}
 
   {% endfor %}
