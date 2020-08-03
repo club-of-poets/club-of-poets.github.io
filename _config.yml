@@ -22,7 +22,7 @@ description: >
 tagline: vitam impendere vero
 location: Amsterdam
 date: true
-baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://club-of-poets.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Jean-Paul Marat
 # google_analytics: UA-101394056-1
