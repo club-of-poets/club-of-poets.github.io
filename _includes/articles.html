@@ -1,10 +1,10 @@
 <div class="articles">
 
   {% for post in site.posts %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-  {% if thecycle == 'odd' %}
-    <div>echo something</div>
-  {% endif %}
+      {% capture thecycle %}{% cycle 0, 1, 2 %}{% endcapture %}
+  
+      <div>{{thecycle}}</div>
+
 
       {% cycle "add row" : '<div class="row">', nil, nil%}
       <div class="four columns">
