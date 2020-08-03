@@ -2,7 +2,7 @@
 
   {% for post in site.posts %}
   
-      {% cycle :'<div class="row">', '', '' %}
+    {% cycle :'<div class="row">', '', '' %}
       <div class="four columns">
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
@@ -15,7 +15,7 @@
         </div>
         </a>
       </div>
-      {% cycle :'', '', '</div>' %}
+    {% cycle :'', '', '</div>' %}
 
   {% endfor %}
   
