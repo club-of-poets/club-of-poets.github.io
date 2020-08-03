@@ -1,10 +1,7 @@
 <div class="articles">
 
   {% for post in site.posts %}
-  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-  {% if thecycle == 'odd' %}
-    <div>echo something</div>
-  {% endif %}
+      {% capture index %}{% cycle 0, 1, 2 %}{% endcapture %}
 
       {% cycle '<div class="row">', nil, nil%}
       <div class="four columns">
@@ -19,8 +16,8 @@
         </div>
         </a>
       </div>
-      {% cycle nil, nil, "</div>" %}
+      {% cycle nil, nil, '</div>' %}
 
   {% endfor %}
-  {% cycle "end row" : nil, "</div>", "</div>", "</div>" %}
+  {% cycle nil, '</div>', '</div>', '</div>' %}
 </div>
