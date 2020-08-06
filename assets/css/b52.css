@@ -1,0 +1,6 @@
+@font-face {
+  font-family:b52;
+  font-style:normal;
+  font-weight:400;
+  src:local('B52'),local('B52-Regular'),url(/assets/fonts/b52.woff) format('woff'),url(/assets/fonts/b52.ttf) format('truetype')
+}

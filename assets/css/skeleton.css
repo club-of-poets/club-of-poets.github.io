@@ -122,7 +122,9 @@ html {
   font-size: 62.5%; }
 body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 0.75; }
+  line-height: 0.75;
+  letter-spacing: -0.2rem;
+ }
 
 
 /* Typography
