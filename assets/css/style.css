@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica|IM+Fell+English+SC');
+@import url(https://allfont.net/allfont.css?fonts=b52);
 
 body{
   height: 100%;
   text-decoration-skip: ink;
   color: #2f2f2f;
   padding-top: 10px;
-  font-family: 'IM Fell DW Pica', serif;
+  font-family: 'B52', arial;
   background-color: #F2F7F9;
   background-size: cover;
   background-position: center;
@@ -45,7 +45,7 @@ p::selection{
 }
 
 .brand{
-  font-family: 'IM Fell English SC', serif;
+  font-family: 'B52', arial;
 }
 
 .title{
@@ -124,7 +124,19 @@ hr.simple {
   font-size: 2.5em;
 }
 
+.onecol::first-letter {
+  font-size: 2.5em;
+}
+
 .threecol{
+  -ms-word-break: keep-all;
+  word-break: keep-all;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+}
+
+.onecol{
   -ms-word-break: keep-all;
   word-break: keep-all;
   hyphens: auto;
@@ -147,6 +159,15 @@ and (min-device-width : 768px)  {
     -webkit-column-count: 3;
     -webkit-column-gap: 20px;
     column-count: 3;
+    column-gap: 20px;
+    width: 100%;
+  }
+  .onecol {
+    -moz-column-count: 1;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 20px;
+    column-count: 1;
     column-gap: 20px;
     width: 100%;
   }

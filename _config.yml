@@ -49,7 +49,7 @@ lang: ru
 # Build settings
 exclude: README.md
 markdown: kramdown
-theme: minima
+# theme: minima
 gems:
   - jekyll-feed
   - jekyll-seo-tag
