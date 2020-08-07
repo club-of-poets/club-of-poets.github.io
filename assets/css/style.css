@@ -10,7 +10,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: repeat-y;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg.webp");
 }
 
 body::selection{
