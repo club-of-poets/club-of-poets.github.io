@@ -45,7 +45,6 @@ lang: ru
 
 # Build settings
 exclude: README.md
-markdown: rdiscount
 # theme: minima
 gems:
   - jekyll-feed
