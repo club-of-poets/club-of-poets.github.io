@@ -7,8 +7,8 @@
         <a href="{{ site.baseurl }}{{ post.url }}" class="link">
         <h3>{{ post.title }}</h3>
         <div class="justify">
-          {% if post.abstract %}
-            {{ post.abstract }}
+          {% if post.excerpt %}
+            {{ post.excerpt }}
           {% else %}
             {{ post.content | truncatewords:25 }}
           {% endif %}
@@ -19,5 +19,5 @@
 
   {% endfor %}
 
-  <!--{% cycle : '', '</div>', '</div>', '</div>' %}-->
+  {% cycle '', '</div>', '</div>', '</div>' %}
 </div>

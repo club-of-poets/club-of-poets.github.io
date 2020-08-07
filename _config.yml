@@ -46,6 +46,7 @@ lang: ru
 # Build settings
 exclude: README.md
 markdown: kramdown
+excerpt_separator: <!--more-->
 # theme: minima
 gems:
   - jekyll-feed
