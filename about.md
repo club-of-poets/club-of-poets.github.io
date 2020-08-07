@@ -4,21 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%27Ami_du_peuple), a newspaper written by [Jean-Paul Marat](https://en.wikipedia.org/wiki/Jean-Paul_Marat) during the French Revolution, and thus may not be used to promote any form of totalitarianism and should rather be used to advance democracy and revive the Age of Reason.
+## Ссылки
 
-Marat is fully responsive, light and fast.
+- Присоединиться к чату [Клуба Алкающих Поэтов](https://t.me/joinchat/FC6kkBnP3OfzjUT__7YNnQ).
 
-1. Adapt the \_config.yml file
-2. Replace/Delete the posts
-3. Change this page: about.md
-4. Change or add your links in the nav.yml file located in the \_data folder
-5. Replace favicon.ico in root folder
-6. Customise the 404.md page in the root directory
-7. Enlighten the masses!
-
-Plugins:
-
-Marat includes the following plugins.
-
-* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
-* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+## Правила Клуба Алкающих Поэтов
+* **Не делайте другим то, что вы не желаете для себя, и поступайте с другими так, как хотели бы, чтобы с вами поступили**.
+* &#x1F649; **Не слышу зла** - не стоит реагировать на что-либо, не соответствующее нормам морали.
+* &#x1F64A; **Не говорю зла** - не стоит сообщать что-либо, не соответствующее нормам морали.
+* &#x1F648; **Не вижу зла** - не стоит постить что-либо, не соответствующее нормам морали.
