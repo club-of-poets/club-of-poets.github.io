@@ -124,10 +124,7 @@ body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 0.9;
   letter-spacing: -0.1rem;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
- }
+}
 
 
 /* Typography
@@ -419,3 +416,17 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+.hyphenate {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+.donthyphenate {
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+}
