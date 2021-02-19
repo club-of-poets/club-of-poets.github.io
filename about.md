@@ -13,4 +13,4 @@ permalink: /about/
 ## Ссылки
 
 - Присоединиться к чату [Клуба Алкающих Поэтов](https://t.me/joinchat/FC6kkBnP3OfzjUT__7YNnQ).
-- Присоединиться к дискорду [Клуба Алкающих Поэтов](https://discord.gg/zQqqBtr).
+- Присоединиться к дискорду [Клуба Алкающих Поэтов](https://discord.gg/WjNBuzbdRE).
